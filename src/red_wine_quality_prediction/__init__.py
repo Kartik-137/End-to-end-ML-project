@@ -13,7 +13,7 @@ os.makedirs(log_dir, exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
-    level = logging.INFO,
+    level = logging.INFO,  # information related log
     format = logging_str,
     handlers=[
         logging.FileHandler(log_filepath), # Creates log folder on the machine

@@ -1,0 +1,17 @@
+# The main folder where all generated artifacts (files, models, logs, etc.) will be stored
+artifacts_root: artifacts
+
+
+data_ingestion:
+
+  # Directory where all data-ingestion–related files will be stored
+  root_dir: artifacts/data_ingestion
+
+  # URL from which the dataset will be downloaded
+  source_URL: https://github.com/Kartik-137/End-to-end-ML-project/raw/refs/heads/main/WineQT.zip
+
+  # Local path where the downloaded zip file will be saved
+  local_data_file: artifacts/data_ingestion/data.zip
+
+  # Directory where the downloaded zip file will be extracted/unzipped
+  unzip_dir: artifacts/data_ingestion
