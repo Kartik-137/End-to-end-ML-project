@@ -1,3 +1,2 @@
-from red_wine_quality_prediction import logger # Import logger object from the __init_.py file in src/red_wine_quality_prediction
-
-logger.info("This is the custom log!")
+from red_wine_quality_prediction import logger
+from red_wine_quality_prediction.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
